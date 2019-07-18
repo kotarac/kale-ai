@@ -1,0 +1,35 @@
+{
+  "name": "kale-ai",
+  "version": "0.0.0",
+  "description": "Opinionated AI.",
+  "homepage": "https://github.com/kotarac/kale-ai",
+  "bugs": "https://github.com/kotarac/kale-ai/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kotarac/kale-ai.git"
+  },
+  "keywords": [
+    "language",
+    "machinelearning",
+    "ai"
+  ],
+  "author": {
+    "name": "Stipe Kotarac",
+    "email": "stipe@kotarac.net",
+    "url": "https://github.com/kotarac"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.11.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "yarn": ">=1"
+  },
+  "scripts": {
+    "prepublish": "yarn run test",
+    "test": "tape test.js"
+  }
+}
