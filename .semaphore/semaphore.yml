@@ -1,13 +1,11 @@
 version: v1.0
 name: semaphore
-
 agent:
   machine:
     type: e1-standard-2
   containers:
     - name: node
       image: semaphoreci/node:10
-
 blocks:
   - name: node
     task:
